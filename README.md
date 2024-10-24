@@ -41,6 +41,8 @@ The following bar chart shows how many customer call in sorted and follow up act
 
 In order to understand more about each cluster, the text message is found using the shortest distance between the average embedding and centroid from k-mean model and the top 10 key words are extracted as the following.
 
+From the key words in each cluster label, we could see the label 1 and 3 are mainly related to the authorization, label 0 is related to copay and refund, label 2 is related to online member account.
+
 Key Words in Cluster Label 0
 [('refund', 0.4739),
  ('copay', 0.4406),
